@@ -1,0 +1,295 @@
+
+body{
+    background-color:#fbc43c ;
+}
+header{
+margin-top: -10px;
+margin-left: -10px;
+margin-right: -10px;
+
+display: flex;
+justify-content: space-between;
+background-color: #8341fdc0;
+align-items: baseline;
+height: 100px;
+}
+ header ul li {
+    display: inline-block;
+    justustify-content: space-between;
+    font-size: 22px;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header a{
+    color: black;
+}
+header h1{
+    margin-left: 20px;
+    text-shadow: 12px 8px 6px #252424b7;
+    
+}
+
+#Contact {
+    margin-top:0px;
+display: block;
+justify-items: center;
+background-color:#fbc43c ;
+margin-bottom: 900px;
+
+}
+
+#Contact form{
+    margin-top:0px;
+    margin-bottom: 250px;
+
+
+}
+
+.prem label{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 550px;
+    margin-top: 100px;
+}
+.prem input{
+    margin-right: 550px;
+    margin-top: 20px;
+    background-color:#fbc43c ;
+    border: none;
+   /* text-decoration: underline; */
+}
+
+
+
+
+.dez label{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 550px;
+    margin-top: 100px;
+}
+input::placeholder {
+    color: #252424b7;         /* texte gris clair */
+    font-style: italic;  /* italique optionnel */
+}
+
+.dez input{
+    margin-right: 550px;
+    margin-top: 20px;
+    background-color:#fbc43c ;
+    border: none;
+   /* text-decoration: underline; */
+}
+
+button{
+
+    justify-content: center;
+    text-align: center;
+    margin-left: 400px;
+    height: 70px;
+        width:  100px;
+        background-color:#8341fdb7 ;
+}
+
+.how img{
+
+    width: 80px;
+    height: 80px;
+}
+#Contact .how{
+column-width: 10px;
+column-count: 3;
+border: none;
+background-color: none;
+/* border: 2px solid black; */
+/* background-color: lightgreen; */
+padding: 20px;
+column-rule: 2px none  black;
+
+}
+
+.gen{
+   width: 2030px;
+   height: 500px;
+    background-color: whitesmoke;
+}
+
+
+
+.gen h1{
+   text-align: center;
+   margin-top: 70px;
+ }
+
+
+
+.w1{
+    padding: 20px;
+   margin-left: 150px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+;
+font-size: 20px;
+}
+
+.w2{
+    padding: 20px;
+margin-left: 150px;
+/* margin-right: 150px; */
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+;
+font-size: 20px;
+}
+
+.w3{
+    padding: 20px;
+     margin-left: 150px;  
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+;
+font-size: 20px;
+}
+
+
+
+#in{
+    background-color: whitesmoke;
+}
+.insta h4{
+    background-color: whitesmoke;
+    text-align: center;
+}
+.a{
+width: 10px;
+height: 0.5px;
+margin-top: 40px;
+margin-left: 500px;
+}
+.b{
+width: 0.1px;
+height: 0.1px;
+
+}
+.c{
+width: 30px;
+height: 300px;
+margin-left: 1500px;
+}
+.d{
+width: 30px;
+height: 300px;
+margin-left: 600px;
+margin-top: 950px;
+}
+
+
+
+.column {
+column-width: 20px;
+column-count: 4;
+border: none;
+background-color: none;
+border: 2px  black; 
+background-color:whitesmoke;
+ padding: 20px;
+column-rule: 2px black;
+} 
+
+/* form .g{
+display: flex;
+justify-content: space-around;
+/* margin-top: 400px; */
+
+/*  */
+#Contact {
+/* margin-top: 300px; */
+display: block;
+justify-content: end;
+margin-top: 350px;
+}
+
+
+
+/* #Contact2  form{
+display: flex;
+justify-content: space-between;
+} */
+#Contact2 h1{
+/* margin-top: 300px; */
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing: 2px;
+}
+#Contact2 .premier{
+margin-top: 50px;
+margin-left: 450px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 23px;
+}
+
+#Contact2 .deuxieme{
+margin-top: -20px;
+margin-left: 1350px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 23px;
+}
+
+.premier input{
+  background-color:#fbc43c ;
+    border: none;
+ margin-left: 20px;
+}
+.deuxieme input{
+  background-color:#fbc43c ;
+    border: none;
+ margin-left: 20px;
+}
+
+/* #contact2 button{
+  display:flex;
+  justify-content: center;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: -600px;
+    height: 70px;
+} */
+#contact2 button{
+
+    justify-content: center;
+    text-align: center;
+    margin-left: 600px;
+    height: 70px;
+        width:  100px;
+        background-color:#8341fdb7 ;
+}
+
+
+
+
+footer{
+    background-color: #333;
+
+margin-left: -10px;
+    width: 2030px;
+    height: 500px;
+    color: beige;
+}
+
+footer h4{
+text-align: center;
+margin-top: 50px;
+
+
+}
+footer .footer-section ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+footer {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
